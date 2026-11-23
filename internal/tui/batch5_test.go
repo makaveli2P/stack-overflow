@@ -380,7 +380,7 @@ func TestPickerDocumented(t *testing.T) {
 			}
 		}
 	}
-	readme, err := os.ReadFile("../../README.md")
+	readme, err := os.ReadFile("../../docs/GUIDE.md")
 	if err != nil {
 		t.Fatal(err)
 	}

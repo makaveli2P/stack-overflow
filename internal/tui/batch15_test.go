@@ -360,7 +360,7 @@ func TestShotSharedWhenPictureReady(t *testing.T) {
 // links in the order in which they arrive.
 func TestShotOrderDocs(t *testing.T) {
 	for _, c := range []struct{ file, bad, good string }{
-		{"../../README.md", "the links come in the\norder of the pushes", "order in which the server gets them"},
+		{"../../docs/GUIDE.md", "the links come in the\norder of the pushes", "order in which the server gets them"},
 		{"../../DESIGN.md", "The order of the lines is the order of the presses", "the order in which the links\n    reach the server"},
 	} {
 		b, err := os.ReadFile(c.file)

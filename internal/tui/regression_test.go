@@ -143,7 +143,7 @@ func TestDetailCardFollowsPlayerAcrossResort(t *testing.T) {
 // The welcome screen types L into the name field. Only Tab and Ctrl+L
 // open the link form. README must name these keys and not L.
 func TestReadmeLinkKeyMatchesWelcomeScreen(t *testing.T) {
-	readme, err := os.ReadFile("../../README.md")
+	readme, err := os.ReadFile("../../docs/GUIDE.md")
 	if err != nil {
 		t.Fatal(err)
 	}
