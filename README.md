@@ -6,6 +6,8 @@ joins with `ssh`. Players install nothing.
 Up to 10 seats, chip banks, stats, chat, rabbit hunts, all-in run-outs, and
 a settle-up that shows who pays whom. The game does not move real money.
 
+![A finished hand: you win with a flush, two players show their cards, two folded, and the chat reacts](docs/screenshot.png)
+
 ## Host
 
 You need macOS or Linux, Git, and Go 1.27.4 or later (<https://go.dev/dl/>).
